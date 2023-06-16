@@ -15,14 +15,7 @@
 		1D84D7162A30B2D400F22C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D84D7142A30B2D400F22C8F /* LaunchScreen.storyboard */; };
 		1D84D71E2A30B2E500F22C8F /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D84D71D2A30B2E500F22C8F /* WeatherInformation.swift */; };
 		1D84D7202A30B37200F22C8F /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D84D71F2A30B37200F22C8F /* ErrorMessage.swift */; };
-		1D84D7242A31A2C000F22C8F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D84D7232A31A2C000F22C8F /* LoginViewController.swift */; };
-		1D84D7272A31A61700F22C8F /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = 1D84D7262A31A61700F22C8F /* FacebookAEM */; };
-		1D84D7292A31A61700F22C8F /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = 1D84D7282A31A61700F22C8F /* FacebookBasics */; };
-		1D84D72B2A31A61800F22C8F /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1D84D72A2A31A61800F22C8F /* FacebookCore */; };
-		1D84D72D2A31A61800F22C8F /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = 1D84D72C2A31A61800F22C8F /* FacebookGamingServices */; };
-		1D84D72F2A31A61800F22C8F /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 1D84D72E2A31A61800F22C8F /* FacebookLogin */; };
-		1D84D7312A31A61800F22C8F /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 1D84D7302A31A61800F22C8F /* FacebookShare */; };
-		1D84D7332A31A61800F22C8F /* FacebookTV in Frameworks */ = {isa = PBXBuildFile; productRef = 1D84D7322A31A61800F22C8F /* FacebookTV */; };
+		1D84D73A2A31B41B00F22C8F /* Pods_OpenWeatherApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53264E92216AA192FADF4E3E /* Pods_OpenWeatherApi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +29,9 @@
 		1D84D7172A30B2D400F22C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D84D71D2A30B2E500F22C8F /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
 		1D84D71F2A30B37200F22C8F /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
-		1D84D7232A31A2C000F22C8F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		53264E92216AA192FADF4E3E /* Pods_OpenWeatherApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenWeatherApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656579D821F5CC2E1606F43C /* Pods-OpenWeatherApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherApi.release.xcconfig"; path = "Target Support Files/Pods-OpenWeatherApi/Pods-OpenWeatherApi.release.xcconfig"; sourceTree = "<group>"; };
+		6B9B19CF5C259520068449B6 /* Pods-OpenWeatherApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherApi.debug.xcconfig"; path = "Target Support Files/Pods-OpenWeatherApi/Pods-OpenWeatherApi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,13 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D84D72F2A31A61800F22C8F /* FacebookLogin in Frameworks */,
-				1D84D7272A31A61700F22C8F /* FacebookAEM in Frameworks */,
-				1D84D7312A31A61800F22C8F /* FacebookShare in Frameworks */,
-				1D84D72B2A31A61800F22C8F /* FacebookCore in Frameworks */,
-				1D84D7292A31A61700F22C8F /* FacebookBasics in Frameworks */,
-				1D84D72D2A31A61800F22C8F /* FacebookGamingServices in Frameworks */,
-				1D84D7332A31A61800F22C8F /* FacebookTV in Frameworks */,
+				1D84D73A2A31B41B00F22C8F /* Pods_OpenWeatherApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +51,8 @@
 			children = (
 				1D84D7082A30B2D200F22C8F /* OpenWeatherApi */,
 				1D84D7072A30B2D200F22C8F /* Products */,
+				C178C26A75A277A523997ECB /* Pods */,
+				A6960FE90F0E3F765EF1C449 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +76,25 @@
 				1D84D7172A30B2D400F22C8F /* Info.plist */,
 				1D84D71D2A30B2E500F22C8F /* WeatherInformation.swift */,
 				1D84D71F2A30B37200F22C8F /* ErrorMessage.swift */,
-				1D84D7232A31A2C000F22C8F /* LoginViewController.swift */,
 			);
 			path = OpenWeatherApi;
+			sourceTree = "<group>";
+		};
+		A6960FE90F0E3F765EF1C449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53264E92216AA192FADF4E3E /* Pods_OpenWeatherApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C178C26A75A277A523997ECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B9B19CF5C259520068449B6 /* Pods-OpenWeatherApi.debug.xcconfig */,
+				656579D821F5CC2E1606F43C /* Pods-OpenWeatherApi.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +104,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D84D71A2A30B2D400F22C8F /* Build configuration list for PBXNativeTarget "OpenWeatherApi" */;
 			buildPhases = (
+				D129B82B5CDE24FF457668ED /* [CP] Check Pods Manifest.lock */,
 				1D84D7022A30B2D200F22C8F /* Sources */,
 				1D84D7032A30B2D200F22C8F /* Frameworks */,
 				1D84D7042A30B2D200F22C8F /* Resources */,
@@ -107,13 +115,6 @@
 			);
 			name = OpenWeatherApi;
 			packageProductDependencies = (
-				1D84D7262A31A61700F22C8F /* FacebookAEM */,
-				1D84D7282A31A61700F22C8F /* FacebookBasics */,
-				1D84D72A2A31A61800F22C8F /* FacebookCore */,
-				1D84D72C2A31A61800F22C8F /* FacebookGamingServices */,
-				1D84D72E2A31A61800F22C8F /* FacebookLogin */,
-				1D84D7302A31A61800F22C8F /* FacebookShare */,
-				1D84D7322A31A61800F22C8F /* FacebookTV */,
 			);
 			productName = OpenWeatherApi;
 			productReference = 1D84D7062A30B2D200F22C8F /* OpenWeatherApi.app */;
@@ -144,7 +145,6 @@
 			);
 			mainGroup = 1D84D6FD2A30B2D200F22C8F;
 			packageReferences = (
-				1D84D7252A31A61700F22C8F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 1D84D7072A30B2D200F22C8F /* Products */;
 			projectDirPath = "";
@@ -168,12 +168,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D129B82B5CDE24FF457668ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenWeatherApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D84D7022A30B2D200F22C8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D84D7242A31A2C000F22C8F /* LoginViewController.swift in Sources */,
 				1D84D70E2A30B2D200F22C8F /* ViewController.swift in Sources */,
 				1D84D71E2A30B2E500F22C8F /* WeatherInformation.swift in Sources */,
 				1D84D7202A30B37200F22C8F /* ErrorMessage.swift in Sources */,
@@ -320,6 +344,7 @@
 		};
 		1D84D71B2A30B2D400F22C8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9B19CF5C259520068449B6 /* Pods-OpenWeatherApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -347,6 +372,7 @@
 		};
 		1D84D71C2A30B2D400F22C8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656579D821F5CC2E1606F43C /* Pods-OpenWeatherApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -394,55 +420,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1D84D7252A31A61700F22C8F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 14.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		1D84D7262A31A61700F22C8F /* FacebookAEM */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1D84D7252A31A61700F22C8F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookAEM;
-		};
-		1D84D7282A31A61700F22C8F /* FacebookBasics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1D84D7252A31A61700F22C8F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookBasics;
-		};
-		1D84D72A2A31A61800F22C8F /* FacebookCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1D84D7252A31A61700F22C8F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookCore;
-		};
-		1D84D72C2A31A61800F22C8F /* FacebookGamingServices */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1D84D7252A31A61700F22C8F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookGamingServices;
-		};
-		1D84D72E2A31A61800F22C8F /* FacebookLogin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1D84D7252A31A61700F22C8F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookLogin;
-		};
-		1D84D7302A31A61800F22C8F /* FacebookShare */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1D84D7252A31A61700F22C8F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookShare;
-		};
-		1D84D7322A31A61800F22C8F /* FacebookTV */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1D84D7252A31A61700F22C8F /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookTV;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D84D6FE2A30B2D200F22C8F /* Project object */;
 }
